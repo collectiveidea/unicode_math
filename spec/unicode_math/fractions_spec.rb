@@ -44,4 +44,14 @@ describe UnicodeMath::Fractions do
       expect(⅘).to eq(0.8)
     end
   end
+
+  describe 'sixths' do
+    it 'defines ⅙ to equal one sixth' do
+      expect(⅙).to be_within(0.00001).of(0.166666)
+    end
+
+    it 'defines ⅚ to equal five sixths' do
+      expect(⅚).to be_within(0.00001).of(0.833333)
+    end
+  end
 end

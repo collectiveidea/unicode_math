@@ -43,6 +43,15 @@ module UnicodeMath
         define_method "⅘" do
           0.8
         end
+
+        # Sixths
+        define_method "⅙" do
+          1.0 / 6.0
+        end
+
+        define_method "⅚" do
+          5.0 / 6.0
+        end
       end
     end
   end
