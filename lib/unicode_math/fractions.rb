@@ -4,10 +4,12 @@ module UnicodeMath
   module Fractions
     def self.included(base)
       base.class_eval do
+        # Half
         define_method '½' do
           0.5
         end
 
+        # Thirds
         define_method '⅓' do
           1.0 / 3
         end
@@ -16,6 +18,7 @@ module UnicodeMath
           2.0 / 3
         end
 
+        # Quarters
         define_method '¼' do
           0.25
         end
