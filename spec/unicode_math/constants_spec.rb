@@ -4,7 +4,11 @@ require 'spec_helper'
 
 describe UnicodeMath::Constants do
   it 'defines π' do
-    expect(π).to be_within(0.00001).of(3.1416)
+    expect(π).to be_within(0.00005).of(3.1416)
+  end
+
+  it 'defines 𝑒' do
+    expect(𝑒).to be_within(0.00005).of(2.7183)
   end
 
   it 'defines ∞' do

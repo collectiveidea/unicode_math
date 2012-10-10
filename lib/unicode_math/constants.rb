@@ -10,6 +10,12 @@ module UnicodeMath
           end
         end
 
+        %w(ℯ 𝐞 𝑒 𝒆 𝖾 𝗲 𝘦 𝙚 𝚎 ｅ).each do |e|
+          define_method(e) do
+            Math::E
+          end
+        end
+
         define_method('∞') do
           1.0 / 0
         end
