@@ -1,6 +1,8 @@
 # UnicodeMath
 
-TODO: Write a gem description
+[![Build Status](https://secure.travis-ci.org/collectiveidea/unicode_math.png)](http://travis-ci.org/collectiveidea/unicode_math)
+
+You can have lots of fun with unicode in Ruby. Here are a few ways, and we'd love to see more!
 
 ## Installation
 
