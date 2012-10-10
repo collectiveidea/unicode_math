@@ -9,6 +9,10 @@ module UnicodeMath
             Math::PI
           end
         end
+
+        define_method('∞') do
+          1.0 / 0
+        end
       end
     end
   end
