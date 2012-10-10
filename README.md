@@ -14,6 +14,14 @@ You can use many fractions as literals:
     30 + ½
     ⅖ / ⅙
 
+### Roots
+
+You can use square root, cube root, and fourth root:
+
+    √ 4
+    ∛ 27
+    ∜ 81
+
 ## Installation
 
 Add this line to your application's Gemfile:
