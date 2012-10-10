@@ -47,11 +47,11 @@ describe UnicodeMath::Fractions do
 
   describe 'sixths' do
     it 'defines ⅙ to equal one sixth' do
-      expect(⅙).to be_within(0.00001).of(0.166666)
+      expect(⅙).to be_within(0.00001).of(0.16666)
     end
 
     it 'defines ⅚ to equal five sixths' do
-      expect(⅚).to be_within(0.00001).of(0.833333)
+      expect(⅚).to be_within(0.00001).of(0.83333)
     end
   end
 
