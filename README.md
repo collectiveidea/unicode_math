@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Fractions
+
+You can use many fractions as literals:
+
+    ⅞ * 5
+    30 + ½
+    ⅖ / ⅙
 
 ## Contributing
 
