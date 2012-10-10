@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'unicode_math'
-  gem.version = '0.0.1'
+  gem.version = '1.0.0'
 
   gem.author      = 'Collective Idea'
   gem.email       = 'info@collectiveidea.com'
