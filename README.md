@@ -21,6 +21,12 @@ You can use square root, cube root, and fourth root:
     √ 4
     ∛ 27
     ∜ 81
+    
+### Trigonometry
+
+There's a sine wave unicode character, so we can calculate sine of a number:
+
+    ∿ π/2
 
 ### Constants
 
