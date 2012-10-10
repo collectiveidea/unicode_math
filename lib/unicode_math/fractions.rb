@@ -28,19 +28,19 @@ module UnicodeMath
         end
 
         # Fifths
-        define_method "⅕" do
+        define_method '⅕' do
           0.2
         end
 
-        define_method "⅖" do
+        define_method '⅖' do
           0.4
         end
 
-        define_method "⅗" do
+        define_method '⅗' do
           0.6
         end
 
-        define_method "⅘" do
+        define_method '⅘' do
           0.8
         end
 
