@@ -48,6 +48,11 @@ You can raise to the powers of 0–9 as well as arbitrary numbers:
     2.⁷
     1.617 * 10.ⁿ(13)
 
+### Division
+
+    21.÷ 7
+    6.⟌ 24
+
 ## Installation
 
 Add this line to your application's Gemfile:
