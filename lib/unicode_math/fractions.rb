@@ -45,12 +45,12 @@ module UnicodeMath
         end
 
         # Sixths
-        define_method "⅙" do
-          1.0 / 6.0
+        define_method '⅙' do
+          1.0 / 6
         end
 
-        define_method "⅚" do
-          5.0 / 6.0
+        define_method '⅚' do
+          5.0 / 6
         end
         
         # Eighths
