@@ -23,6 +23,23 @@ module UnicodeMath
         define_method '¾' do
           0.75
         end
+
+        # Fifths
+        define_method "⅕" do
+          0.2
+        end
+
+        define_method "⅖" do
+          0.4
+        end
+
+        define_method "⅗" do
+          0.6
+        end
+
+        define_method "⅘" do
+          0.8
+        end
       end
     end
   end

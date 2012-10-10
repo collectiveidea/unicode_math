@@ -22,4 +22,22 @@ describe UnicodeMath::Fractions do
   it 'defines ¾ to equal 0.75' do
     expect(¾).to eq(0.75)
   end
+  
+  describe "fifths" do
+    it "defines ⅕ to equal 0.2" do
+      expect(⅕).to eq(0.2)
+    end
+
+    it "defines ⅖ to equal 0.4" do
+      expect(⅖).to eq(0.4)
+    end
+
+    it "defines ⅗ to equal 0.6" do
+      expect(⅗).to eq(0.6)
+    end
+
+    it "defines ⅘ to equal 0.8" do
+      expect(⅘).to eq(0.8)
+    end
+  end
 end
