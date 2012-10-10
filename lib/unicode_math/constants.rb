@@ -10,6 +10,12 @@ module UnicodeMath
           end
         end
 
+        %w(τ 𝛕 𝜏 𝝉 𝞃 𝞽).each do |tau|
+          define_method(tau) do
+            2 * Math::PI
+          end
+        end
+
         %w(ℯ 𝐞 𝑒 𝒆 𝖾 𝗲 𝘦 𝙚 𝚎 ｅ).each do |e|
           define_method(e) do
             Math::E
