@@ -4,6 +4,16 @@
 
 You can have lots of fun with unicode in Ruby. Here are a few ways, and we'd love to see more!
 
+## Usage
+
+### Fractions
+
+You can use many fractions as literals:
+
+    ⅞ * 5
+    30 + ½
+    ⅖ / ⅙
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,16 +27,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install unicode_math
-
-## Usage
-
-### Fractions
-
-You can use many fractions as literals:
-
-    ⅞ * 5
-    30 + ½
-    ⅖ / ⅙
 
 ## Contributing
 
