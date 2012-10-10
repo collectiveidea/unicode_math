@@ -52,6 +52,23 @@ module UnicodeMath
         define_method "⅚" do
           5.0 / 6.0
         end
+        
+        # Eighths
+        define_method "⅛" do
+          0.125
+        end
+
+        define_method "⅜" do
+          0.375
+        end
+
+        define_method "⅝" do
+          0.625
+        end
+
+        define_method "⅞" do
+          0.875
+        end
       end
     end
   end

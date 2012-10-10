@@ -54,4 +54,22 @@ describe UnicodeMath::Fractions do
       expect(⅚).to be_within(0.00001).of(0.833333)
     end
   end
+
+  describe 'eighths' do
+    it 'defines ⅛ to equal 0.125' do
+      expect(⅛).to eq(0.125)
+    end
+
+    it 'defines ⅜ to equal 0.375' do
+      expect(⅜).to eq(0.375)
+    end
+
+    it 'defines ⅝ to equal 0.625' do
+      expect(⅝).to eq(0.625)
+    end
+
+    it 'defines ⅞ to equal 0.875' do
+      expect(⅞).to eq(0.875)
+    end
+  end
 end
