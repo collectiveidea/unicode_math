@@ -31,6 +31,10 @@ Easily use unicode costants:
     𝑒
     ∞
 
+And have fun with them:
+
+    (-∞..∞).cover? ∞ + 1
+
 ## Installation
 
 Add this line to your application's Gemfile:
