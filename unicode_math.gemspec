@@ -10,6 +10,8 @@ Gem::Specification.new do |gem|
   gem.summary     = gem.description
   gem.homepage    = 'https://github.com/collectiveidea/unicode_math'
 
+  gem.add_development_dependency 'rspec', '~> 2.0'
+
   gem.files        = `git ls-files`.split($/)
   gem.test_files   = gem.files.grep(/^spec/)
   gem.require_path = 'lib'
