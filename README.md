@@ -22,6 +22,15 @@ You can use square root, cube root, and fourth root:
     ∛ 27
     ∜ 81
 
+### Constants
+
+Easily use unicode costants:
+
+    π
+    τ
+    𝑒
+    ∞
+
 ## Installation
 
 Add this line to your application's Gemfile:
