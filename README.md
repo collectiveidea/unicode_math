@@ -51,6 +51,10 @@ You can raise to the powers of 0–9 as well as arbitrary numbers:
     21.÷ 7
     6.⟌ 24
 
+### Multiplication
+
+    5.× 5
+
 ## Installation
 
 Add this line to your application's Gemfile:
