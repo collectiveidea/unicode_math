@@ -7,6 +7,10 @@ module UnicodeMath
         define_method('Σ') do |enum|
           enum.inject(:+)
         end
+
+        define_method('Π') do |enum|
+          enum.inject(:*)
+        end
       end
     end
   end

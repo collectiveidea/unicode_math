@@ -12,4 +12,14 @@ describe UnicodeMath::Sigma do
     result = Σ (1..10)
     expect(result).to eq(55)
   end
+
+  it 'defines Π to multiply elements of array' do
+    result = Π [1,2,3]
+    expect(result).to eq(6)
+  end
+
+  it 'defines Π to multiply elements of range' do
+    result = Π (1..10)
+    expect(result).to eq(3628800)
+  end
 end
