@@ -55,6 +55,11 @@ You can raise to the powers of 0–9 as well as arbitrary numbers:
 
     5.× 5
 
+### Array as set
+
+    [2, 3, 5, 7].∩ [3, 5, 7, 9]
+    [2, 3, 5, 7].∪ [3, 5, 7, 9]
+
 ## Installation
 
 Add this line to your application's Gemfile:
