@@ -55,6 +55,15 @@ You can raise to the powers of 0–9 as well as arbitrary numbers:
 
     5.× 5
 
+### Sigma and pi notations
+
+You can sum up or multiply emlements of either an array or range:
+
+    Σ [1, 2, 3, 4]
+    Σ (1..10)
+    Π [1, 2, 3, 4]
+    Π (1..10)
+
 ## Installation
 
 Add this line to your application's Gemfile:
