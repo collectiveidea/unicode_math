@@ -64,6 +64,11 @@ You can sum up or multiply emlements of either an array or range:
     Π [1, 2, 3, 4]
     Π (1..10)
 
+### Array as set
+
+    [2, 3, 5, 7].∩ [3, 5, 7, 9]
+    [2, 3, 5, 7].∪ [3, 5, 7, 9]
+
 ## Installation
 
 Add this line to your application's Gemfile:
