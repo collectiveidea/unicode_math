@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'unicode_math'
-  gem.version = '1.2.0'
+  gem.version = '1.3.0'
 
   gem.author      = 'Collective Idea'
   gem.email       = 'info@collectiveidea.com'
@@ -10,8 +10,8 @@ Gem::Specification.new do |gem|
   gem.summary     = gem.description
   gem.homepage    = 'https://github.com/collectiveidea/unicode_math'
 
-  gem.add_development_dependency 'rake', '~> 0.9'
-  gem.add_development_dependency 'rspec', '~> 2.11'
+  gem.add_development_dependency 'rake', '~> 10.0'
+  gem.add_development_dependency 'rspec', '~> 2.12'
 
   gem.files        = `git ls-files`.split($/)
   gem.test_files   = gem.files.grep(/^spec/)
