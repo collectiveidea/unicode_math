@@ -15,6 +15,10 @@ describe UnicodeMath::Constants do
     expect(𝑒).to be_within(0.00005).of(2.7183)
   end
 
+  it 'defines 𝑖' do
+    expect(𝑖 * 𝑖).to eq(-1)
+  end
+
   it 'defines ∞' do
     expect(∞ + 1).to eq(∞)
   end

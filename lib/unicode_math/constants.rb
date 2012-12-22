@@ -22,6 +22,12 @@ module UnicodeMath
           end
         end
 
+        %w(𝐢 𝑖 𝒊 𝒾 𝓲 𝔦 𝕚 𝖎 𝗂 𝗶 𝘪 𝙞 𝚒).each do |i|
+          define_method(i) do
+            Complex::I
+          end
+        end
+
         define_method('∞') do
           1.0 / 0
         end
