@@ -34,6 +34,7 @@ Easily use unicode costants:
     τ
     𝑒
     ∞
+    𝐢
 
 And have fun with them:
 
