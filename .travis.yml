@@ -3,3 +3,8 @@ rvm:
   - 1.9.2
   - 1.9.3
 script: rspec
+notifications:
+  webhooks:
+    urls:
+      - http://buildlight.collectiveidea.com/
+    on_start: true
