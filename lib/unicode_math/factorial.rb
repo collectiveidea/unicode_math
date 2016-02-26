@@ -5,8 +5,8 @@ module UnicodeMath
     def self.included(base)
       base.class_eval do
         define_method('!') do
-            fact = self
-            (fact-1).downto(1) do |i|
+            fact = 1
+            (self).downto(1) do |i|
               fact = fact * i
             end
             fact
