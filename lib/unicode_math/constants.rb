@@ -31,6 +31,48 @@ module UnicodeMath
         define_method('∞') do
           1.0 / 0
         end
+
+        #Hindi Counting https://en.wikibooks.org/wiki/Hindi/Numbers        
+        define_method('०') do
+          0
+        end
+
+        define_method('१') do
+          1
+        end
+
+        define_method('२') do
+          2
+        end
+
+        define_method('३') do
+          3
+        end
+
+        define_method('४') do
+          4
+        end
+
+        define_method('५') do
+          5
+        end
+
+        define_method('६') do
+          6
+        end
+
+        define_method('७') do
+          7
+        end
+
+        define_method('८') do
+          8
+        end
+
+        define_method('९') do
+          9
+        end
+        
       end
     end
   end
