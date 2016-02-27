@@ -22,8 +22,12 @@ describe UnicodeMath::Constants do
   it 'defines ∞' do
     expect(∞ + 1).to eq(∞)
   end
+  
+  it 'defines १' do
+    expect(१).to eq(1)
+  end
 
-  it 'defines ६' do 
-    expect(६).to eq(6)
+  it 'defines ३' do
+    expect(३).to eq(3)
   end
 end
