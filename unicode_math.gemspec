@@ -1,8 +1,10 @@
 # encoding: utf-8
+$:.push File.expand_path("../lib", __FILE__)
+require "unicode_math/version"
 
 Gem::Specification.new do |gem|
   gem.name    = 'unicode_math'
-  gem.version = '1.3.0'
+  gem.version = UnicodeMath::VERSION
 
   gem.author      = 'Collective Idea'
   gem.email       = 'info@collectiveidea.com'
