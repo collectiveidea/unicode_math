@@ -39,6 +39,19 @@ Easily use unicode costants:
 And have fun with them:
 
     (-∞..∞).cover? ∞ + 1
+    
+Including [Hindi numbers](https://en.wikibooks.org/wiki/Hindi/Numbers):
+
+    ०
+    १
+    २
+    ३
+    ४
+    ५
+    ६
+    ७ 
+    ८
+    ९
 
 ### Exponents
 
@@ -69,6 +82,11 @@ You can sum up or multiply emlements of either an array or range:
 
     [2, 3, 5, 7].∩ [3, 5, 7, 9]
     [2, 3, 5, 7].∪ [3, 5, 7, 9]
+    
+### Factorial
+
+    2.!
+    10.!
 
 ## Installation
 
