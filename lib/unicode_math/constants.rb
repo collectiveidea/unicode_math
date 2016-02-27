@@ -31,6 +31,14 @@ module UnicodeMath
         define_method('∞') do
           1.0 / 0
         end
+
+        #Hindi Counting https://en.wikibooks.org/wiki/Hindi/Numbers        
+        %w[० १ २ ३ ४ ५ ६ ७ ८ ९].map.with_index do |w,i| 
+          define_method(w) do     
+            i
+          end
+        end
+
       end
     end
   end
