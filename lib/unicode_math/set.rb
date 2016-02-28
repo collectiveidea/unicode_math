@@ -38,5 +38,4 @@ module UnicodeMath
 end
 
 Array.send(:include, UnicodeMath::Set)
-#Boolean.send(:include, UnicodeMath::Set)
        
