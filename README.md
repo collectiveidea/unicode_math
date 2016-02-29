@@ -80,9 +80,14 @@ You can sum up or multiply emlements of either an array or range:
 
 ### Array as set
 
-    [2, 3, 5, 7].∩ [3, 5, 7, 9]
-    [2, 3, 5, 7].∪ [3, 5, 7, 9]
-    
+    [2, 3, 5, 7].∩ [3, 5, 7, 9]  # Intersection
+    [2, 3, 5, 7].∪ [3, 5, 7, 9]  # Union
+    [2, 3, 5, 7].⊂ [3, 5, 7, 9]  # Subset of
+    [2, 3, 5, 7].⊃ [3, 5, 7, 9]  # Superset of
+    [2, 3, 5, 7].∈ [3, 5, 7, 9]  # Belongs to
+    [2, 3, 5, 7].∉ [3, 5, 7, 9]  # Does not belong to
+    [2, 3, 5, 7].∅               # Empty set
+
 ### Factorial
 
     2.!
